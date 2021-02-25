@@ -53,6 +53,14 @@ body {
   width: 75%;
   margin: 1rem auto;
 }
+.update-button {
+  position: absolute;
+  top: 65px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
 .save-button {
   position: absolute;
   top: 25px;
@@ -74,4 +82,17 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+.form {
+  margin: 0 auto;
+  border: mediumaquamarine 2px dashed;
+  padding: 5% 30%;
+  background-color: mistyrose;
+}
+.updateForm {
+  color: navy;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
